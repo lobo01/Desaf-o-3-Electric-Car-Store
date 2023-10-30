@@ -43,8 +43,27 @@
 
 
 .container form {
-    background-color: blueviolet;
+    display: flex;
+    background-color: gray;
     grid-area: f;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-formulario {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+}
+
+.caja-seleccionadora {
+    display: flex;
+}
+
+.caja2 {
+    width: 300px;
+    height: 30px;
 }
 
 
@@ -52,7 +71,6 @@
     background-color: bisque;
     grid-area: m;
 }
-
 
 
 .container footer {
