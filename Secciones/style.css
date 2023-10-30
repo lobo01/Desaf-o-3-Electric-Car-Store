@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    border: 1px solid black;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    display: grid;
+    height: 100vh;
+    background-color: palegreen;
+    grid-template-rows: 0.7fr 0.7fr 7fr 0.7fr;
+    grid-template-areas: 
+    "n"
+    "f"
+    "m"
+    "ft";
+
+}
+
+.container nav {
+    background-color: blue;
+    grid-area: n;
+}
+
+.container form {
+    background-color: blueviolet;
+    grid-area: f;
+}
+
+.container main {
+    background-color: bisque;
+    grid-area: m;
+}
+
+.container footer {
+    background-color:cornflowerblue;
+    grid-area: ft;
+}
