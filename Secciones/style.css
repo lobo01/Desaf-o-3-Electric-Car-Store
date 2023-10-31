@@ -117,7 +117,30 @@ button {
     display: flex;
     background-color:cornflowerblue;
     grid-area: ft;
-    height: 60px;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+}
+
+@media (min-width: 576px) { .container {
+    display: grid;
+    height: auto;
+    background-color: black;
+    grid-template-rows: 0.7fr 0.7fr 7fr 0.7fr;
+    grid-template-areas: 
+    "f f f f f f"
+    "n n m m m m"
+    "n n m m m m"
+    "ft ft m m m m";
+}
+
+.footer {
+    display: flex;
+    background-color:cornflowerblue;
+    grid-area: ft;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 }
