@@ -55,6 +55,7 @@
     font-size: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
+    margin-top: 10px;
 }
 
 .caja-seleccionadora {
@@ -64,16 +65,59 @@
 .caja2 {
     width: 300px;
     height: 30px;
+    margin: 10px;
 }
 
 
 .container main {
     background-color: bisque;
     grid-area: m;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+ 
 }
 
+.card {
+    width: 350px;
+    height: 700px; 
+}
+
+.imagen-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 15%;
+    font-size: 30px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15%;
+}
+
+button {
+    background-color: blue;
+    border-radius: 15%;
+    font-size: 30px;
+}
 
 .container footer {
+    display: flex;
     background-color:cornflowerblue;
     grid-area: ft;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
 }
